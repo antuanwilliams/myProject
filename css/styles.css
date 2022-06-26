@@ -6,10 +6,12 @@ body {
 }
 
 .container {
-    max-width: 1180px;
+    width: 1440px;
+    max-width: 90%;
     margin: auto;
     padding: 0px 16px;
 }
+
 
 ul {
     margin: 0;
@@ -396,6 +398,42 @@ footer .copyright-text {
   letter-spacing: 0.4px;
   line-height: 22px;
 }
+
+/* *******************************
+******** CSS MEDIA QUERIES *******
+******************************** */
+
+
+/* Start of design for small desktops */
+@media screen and (max-width: 1440px) {
+
+  .container {
+    width: 1180px;
+    max-width: 90%;
+  }
+  /* End of design for small Desktops */
+    
+  }
+  
+  /* Start of design for Tablets */
+  @media screen and (max-width: 960px) {
+  
+    .container {
+      max-width: 92%;
+    }
+    /* End of design for Tablets */
+      
+    }
+  
+    /* Start of design for Mobile */
+    @media screen and (max-width: 576px) {
+  
+      .container {
+        max-width: 92%;
+      }
+      /* End of design for Mobile */
+        
+      }
 
 
 
